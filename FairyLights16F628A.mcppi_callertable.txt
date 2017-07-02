@@ -1,0 +1,21 @@
+main
+	Lcd_Init
+		Delay_5500us
+		Delay_1us
+	Lcd_Cmd
+		Delay_1us
+		Delay_5500us
+		Delay_50us
+	init_io
+	padrao1
+		acendeLeds
+		apagaLeds
+interrupt
+	padrao2
+		apagaLeds
+	padrao3
+		apagaLeds
+	padrao4
+		apagaLeds
+	padrao5
+		apagaLeds
